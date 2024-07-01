@@ -1,0 +1,104 @@
+body{
+	background-color: #E6B9A6;
+	background-image: none;
+	transition: all 0.3s ease;
+	font-family: sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+h1{
+	text-align: unset;
+	color: yellow;
+	font-size: 40px;
+}
+ul li{
+	display: inline-block;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 15px;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-weight: bold;
+}
+a{
+	color:white;
+	text-decoration: none;
+	background-color:#254336;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+	text-align: center;
+}
+a:hover{
+	background-color: #939185;
+	color: aqua;
+}
+.info{
+	border: 2px solid #3498db;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0 auto;
+	width: 50%;
+}
+.vinculo{
+	text-align: center;
+}
+.link{
+	padding: 10px 20px;
+	background-color: black;
+	color: yellow;
+	text-decoration: none;
+	transition: all 0.6s ease;
+	
+}
+.link:hover{
+	background-color: dimgray;
+
+}
+.redes{
+	display: inline-block;
+	justify-content: center;
+	padding: 10px;
+	border-radius: 10px;
+	margin-left: 590px;
+	margin-top: 200px;
+}
+.redes .F{
+	background-color: black;
+	margin: 0 10px;
+	color: yellow;
+	font-size: 24px;
+	transition: 0.5s;
+}
+.redes .F:hover{
+	color: blue;
+	box-shadow: 25px 10px 100px aqua;
+}
+.redes .I{
+	background-color: black;
+	margin: 0 10px;
+	color: yellow;
+	font-size: 24px;
+	transition: 0.5s;
+}
+.redes .I:hover{
+	box-shadow: 25px 10px 100px rosybrown;
+	color: rgb(255, 0, 132);
+}
+footer{
+	font-size: 0.8em;
+	margin-top:20px;
+	margin-bottom: 10px;
+	color: aqua;
+	text-align: center;
+	padding: 10px;
+	left: 0;
+	width: 100%;
+}

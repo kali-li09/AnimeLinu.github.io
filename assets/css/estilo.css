@@ -1,0 +1,121 @@
+body{
+	background-color: #E6B9A6;
+	background-image: none;
+	transition: all 0.3s ease;
+	font-family: sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+h1{
+	text-align: unset;
+	color: aqua;
+	font-size: 40px;
+}
+ul li{
+	display: inline-block;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 15px;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-weight: bold;
+}
+footer{
+	font-size: 0.8em;
+	margin-top:20px;
+	margin-bottom: 10px;
+	color: aqua;
+	text-align: center;
+	padding: 10px;
+	left: 0;
+	width: 100%;
+}
+.vinculo{
+	text-align: center;
+}
+.link{
+	padding: 10px 20px;
+	background-color: dimgray;
+	color: aqua;
+	text-decoration: none;
+	
+}
+.link:hover{
+	background-color: black;
+}
+a{
+	color:white;
+	text-decoration: none;
+	background-color:#939185;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+	transition: all 0.6s ease;
+	text-align: center;
+}
+a:hover{
+	background-color: #254336;
+	color: aqua;
+}
+.contenedor img{
+	border-radius: 100px;
+	background-position: center;
+	max-width: 950px;
+	max-height: 485px;
+	height: 100%;
+	width: 100%;
+}
+.contenedor{
+	position: relative;
+}
+.contenedor .wrapper{
+	width: 68vw;
+	height: 75vh;
+	box-shadow: 25px 50px 100px rgba(25, 50, 100, 1.6);
+	margin: 5rem auto;
+	border-radius: 100px;
+	overflow: hidden;
+}
+.contenedor .wrapper-holder{
+	display: grid;
+	grid-template-columns: repeat(4, 100%);
+	height: 100%;
+	width: 100%;
+	animation: slider 30s ease-in-out infinite alternate;
+}
+.contenedor #slider-img-1{
+	background-image: url(assets/img/nose.jpg);
+	background-position: center;
+}
+.contenedor #slider-img-2{
+	background-image: url(assets/img/dragon.jpg);
+	background-position: center;
+}
+.contenedor #slider-img-3{
+	background-image: url(assets/img/cute.jpg);
+	background-position: center;
+}
+.contenedor #slider-img-4{
+	background-image: url(assets/img/character.jpg);
+	background-position: center;
+}
+
+@keyframes slider{
+	0%{transform: translateX(0%);}
+	10%{transform: translateX(-100%);}
+	20%{transform: translateX(-100%);}
+	30%{transform: translateX(-200%);}
+	40%{transform: translateX(-200%);}
+	50%{transform: translateX(-200%);}
+	60%{transform: translateX(-300%);}
+	70%{transform: translateX(-300%);}
+	80%{transform: translateX(-300%);}
+	90%{transform: translateX(0%);}
+	100%{transform: translateX(0%);}
+}
